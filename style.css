@@ -1,0 +1,125 @@
+.poster{
+
+    background-color: red;
+    width: 100%;
+    height: 600px;
+    background-image:url('Resources/img.jpeg');
+    background-size: cover;
+    margin-bottom: 100px;
+    position: sticky;
+}
+
+.navbar{
+padding: 20px;
+}
+.poster img{
+    width: 100%;
+    position: absolute;
+    mix-blend-mode: screen;
+    height: 600px;
+}
+
+.goju{
+    margin-top: -170px;
+    margin-left: 550px;
+    z-index: 1;
+    color: rgba(255, 0, 0, 0.849);
+    /* position: absolute; */
+}
+
+.featured-anime{
+    background-color: black;
+    width: 100%;    
+    height: 800px;
+    margin-top: 30px;
+}
+
+.featured-anime h2{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.card-body{
+    outline: none;
+    border: none;
+    background-color: rgb(37, 37, 37);
+}
+
+
+.card-body p{
+    color: white;
+    font-size: 14px;
+}
+
+.card-body h5{
+    color: white;
+}
+
+.latest{
+    background-color: black;
+    width: 100%;    
+    height: 500px;
+    margin-bottom: -30px;
+}
+
+.latest h2{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.latest p{
+    color: white;
+    font-size: 14px;
+}
+
+.latest h3{
+    color: white;
+}
+
+
+.scrollbar{
+    background-color: black;
+    /* width: 100%;     */
+    /* height: 730px; */
+}
+
+
+.scrollbar img{
+    width:160px;
+    margin: 10px;
+    height: 400px;
+    box-shadow: rgba(79, 250, 250, 0.137) 10px 10px 10px;
+    /* border-radius: 10px 50px 10px 50px; */
+}
+
+.footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    background-image: url('Resources/footer.jpg');
+    background-color: black;
+    opacity: 70%;
+    
+}
+
+.footer p{
+    text-align: center;
+    color: white;
+}
+
+.manga img:hover{
+    width: 300px;
+    transition: ease-in-out;
+    animation: ease-in-out;
+}
+
+.carousel-control-next{
+    margin-top: 1100px;
+}
+.carousel-control-prev{
+    margin-top: 1100px;
+}
